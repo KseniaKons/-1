@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap');
 :root
 {
-    --colorbody:  #E5E5E5;
+    --colorbody:  FFFFFF;
     --Zagolovok: #181A3F;
     --button1: #FF7549;
     
@@ -50,7 +50,7 @@
     flex-direction: row;
     height: 121px;
     align-items: center;
-    border-bottom: 2px solid #808080;
+    border-bottom: 2px solid #E5E5E5;
 }
 
 .Logo
