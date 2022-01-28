@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap');
+:root
+{
+    --colorbody:  #E5E5E5;
+    --Zagolovok: #181A3F;
+    --button1: #FF7549;
+    
+
+}
+
+.body
+{
+    background-color: var(--colorbody);
+}
+
+.Zagolovok
+{
+    color: var(--Zagolovok);
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 74px;
+    letter-spacing: 2.16px;
+    text-transform: uppercase;
+
+    box-sizing: border-box;
+    width: 630px;
+    margin-bottom: 0px;
+
+}
+
+.Text
+{
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+
+    box-sizing: border-box;
+    width: 462px;
+    margin-top: 13px;
+}
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    height: 121px;
+    align-items: center;
+    border-bottom: 2px solid #808080;
+}
+
+.Logo
+{
+    margin-left: 110px;
+}
+
+.Menu
+{
+    margin-left: 60% ;
+}
+
+.section1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.Div1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 732px;
+    margin-left: 110px;
+}
+
+.Div2
+{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    margin-bottom: 0px;
+}
+
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 42px;
+}
+
+.ContactUs
+{
+    box-sizing: border-box;
+    width: 255px;
+    height: 56px;
+    background-color: var(--button1);
+    text-decoration: none;
+    margin-right: 28px;
+
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.OurProjects
+{
+    box-sizing: border-box;
+    width: 255px;
+    height: 56px;
+    background-color: var(--colorbody);
+    text-decoration: none;
+    border: 2px solid #181A3F;
+
+    font-family: Urbanist;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #181A3F;
+
+}
+
+.position
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+}
+
+.clik:hover
+{
+
+    color: #000080;
+    box-shadow: 3px 3px 3px 3px #008000;
+    transition: all 0.5s ease 0s;
+
+}
